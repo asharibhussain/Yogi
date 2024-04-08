@@ -1,0 +1,136 @@
+@media screen and (max-width: 1024px) {
+    #main {
+        .hero_Contact {
+            padding: 50px 20px;
+        
+            .hero_Contact_container {
+            .hero_Contact-row {
+                .heading-contact {
+                h3 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+        
+                h5 {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+                }
+        
+                .right_icon {
+                .bt {
+                    padding: 13px 110.5px;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+                }
+            }
+            }
+        }
+        }
+}
+
+@media screen and (max-width: 991px) { 
+    #main {
+        .hero_Contact {
+        padding: 50px 20px;
+    
+        .hero_Contact_container {
+            .hero_Contact-row {
+            .heading-contact {
+                padding-top: 30px;
+    
+                h3 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+    
+                h5 {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+            }
+    
+            .right_icon {
+                text-align: -webkit-center;
+    
+                .bt {
+                    padding: 13px 110.5px;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    #main {
+        .hero_Contact {
+            padding: 50px 20px;
+    
+        .hero_Contact_container {
+            .hero_Contact-row {
+                flex-direction: column;
+    
+            .heading-contact {
+                padding-top: 30px;
+    
+                h3 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+    
+                h5 {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+            }
+    
+            .right_icon {
+                text-align: -webkit-center;
+    
+                .bt {
+                    padding: 13px 110.5px;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main {
+        .hero_Contact {
+            .hero_Contact_container {
+            .hero_Contact-row {
+                .heading-contact {
+                h5 {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+                }
+        
+                .form-input-contact {
+                #form-label-control,
+                #form-label-control-2 {
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+                }
+        
+                .right_icon {
+                .bt {
+                    padding: 13px 80.5px;
+                }
+                }
+            }
+            }
+        }
+        }
+}

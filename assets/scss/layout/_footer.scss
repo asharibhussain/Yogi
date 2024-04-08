@@ -1,0 +1,156 @@
+@import '../base/typography';
+@import '../base/color';
+@import '../base/Font-Weights';
+
+.footer_section {
+padding: 80px;
+
+.footer_container {
+    .footer_row {
+    padding-bottom: 90px;
+
+    h5 {
+        font-weight: $fw-semibold;
+        padding-bottom: 37px;
+        font-size: $extra-large;
+        line-height: 36px;
+        color: $Ebony;
+    }
+
+    ul {
+        li {
+            a {
+                padding-bottom: 10px;
+                line-height: 27px;
+                font-weight: $fw-semibold;
+                letter-spacing: 0.01em;
+                color: $Hex;
+            }
+        }
+    }
+
+    li {
+        padding-bottom: 18px;
+        a {
+            position: relative;
+    
+            &::after {
+            content: "";
+            position: absolute;
+            bottom: 4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $Hex;
+            transition: width 0.3s ease-in-out;
+            }
+            &:hover::after {
+                width: 100%;
+                }
+    }
+
+        
+    }
+
+    .footer_drop {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footer_btn {
+        font-size: $medium;
+        font-weight: $fw-medium;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 14px 16px;
+        color: $Ebony-Clay;
+        gap: 77px;
+        background: $white;
+        box-shadow: 0px 10px 20px $Light-Apricot;
+        border-radius: 8px;
+
+        i {
+        color: $Hex;
+        }
+    }
+    }
+
+    .main-dis { 
+        border-top: 2px solid $Ebony;
+        padding-top: 40px;
+
+    .disclaimer {
+        font-family: 'Poppins';
+        float: inline-start;
+        font-size: $medium;
+        font-weight: $fw-semibold;
+        line-height: 27px;
+        letter-spacing: 0.01em;
+
+        &:hover {
+        color: $Hex;
+        cursor: pointer;
+        }
+    }
+
+    .social-links {
+        float: inline-end;
+
+        a:last-child {
+        padding-right: 0;
+        }
+
+        a {
+        font-size: $large;
+        color: $Ebony;
+        padding-right: 26px;
+
+        &:hover {
+            color: $Hex;
+            cursor: pointer;
+            }
+        }
+    }
+    }
+}
+
+.dropdown-menu {
+    left: 0;
+    right: auto;
+
+    .dropdown-item:hover {
+    color: $Hex;
+    }
+
+    .dropdown-item {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $Hex;
+        transition: width 0.3s ease-in-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+    }
+
+    .dropdown-item:active {
+    background-color: whitesmoke;
+    color: $white;
+    }
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+}
+@import '../components/_back-to-top.scss';
+@import '../breakpoints/home/_footer.scss';

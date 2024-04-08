@@ -1,0 +1,46 @@
+@media screen and (max-width: 1024px) {
+    .clients {
+    .clients_container {
+        .section-title {
+        .clients-title {
+            h5 {
+            font-size: 17px;
+            line-height: 30px;
+            }
+        }
+        }
+    }
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .clients {
+        .clients_container{
+            .logos-slide {
+                img {
+                    height: 35px;
+                }
+                }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .clients {
+    .clients_container {
+        padding: 0 0 28px 0;
+
+        .section-title {
+        .clients-title {
+            h5 {
+            font-size: 15px;
+            line-height: 20px;
+            padding-bottom: 40px;
+            }
+        }
+        }
+    }
+    }
+}

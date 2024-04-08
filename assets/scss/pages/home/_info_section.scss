@@ -1,0 +1,98 @@
+@import '../../base/color';
+@import '../../base/Font-Weights';
+
+#main-index {
+    .info_section {
+        background: $CoralSunrise;
+        ;
+
+    .info-fluid-container {
+        .info_img-vector {
+        position: absolute;
+        right: -76px;
+        top: 71px;
+        }
+    }
+
+    .info_container {
+        .hero-row {
+            .label-main {
+                .label_h {
+                    font-weight: $fw-bold;
+                    padding-left: 1px;
+                    font-size: $fs-enormous;
+                    padding-top: 190px;
+                    line-height: 60px;
+                    letter-spacing: 0.02em;
+                    color: $Ebony;
+                }
+
+            .labe_p {
+                font-weight: $fw-normal;
+                font-size: $medium; // Using the variable for 18px
+                line-height: 27px;
+                color: $grey;
+                padding-top: 23px;
+            }
+
+            .right_icon {
+                padding-top: 53px;
+
+            .bt {
+                    padding: 22.5px 45.5px;
+                    font-weight: $fw-medium;
+                    line-height: 25px;
+                    letter-spacing: 0.01em;
+                    border: none;
+                    border-radius: 10px;
+                    background: $Hex;
+                    color:$white;
+                    font-size: $medium; // Using the variable for 18px
+
+                i {
+                    margin-left: 10px;
+                }
+            }
+            }
+        }
+        }
+
+        .row-img {
+            .picture_1 {
+                padding-top: 131px;
+            }
+
+        .picture_2 {
+            text-align: end;
+            padding: 203px 0 0 79px;
+        }
+
+        .picture_3 {
+            position: relative;
+            float: inline-end;
+            padding-top: 55px;
+            padding-right: 58px;
+
+            .pic_img_1 {
+                position: relative;
+                z-index: 1;
+            }
+
+            .pic_img_2 {
+                position: absolute;
+                left: -50px;
+                z-index: 0;
+                bottom: -40px;
+            }
+        }
+
+        .picture_4 {
+            text-align: end;
+            padding: 97px 0 109px 0;
+        }
+        }
+    }
+    }
+}
+@import '../../components/_buttons.scss';
+@import '../../breakpoints/home/_info_section.scss';

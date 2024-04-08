@@ -1,0 +1,53 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/fonts';
+@import '../../base/Font-Weights';
+
+.main-s-b-p {
+    .blog-page-section {
+    .s-blog-container {
+        .s-blog-row {
+        .sidebar-blog {
+            padding-top: 37px;
+            
+            .recent-posts {
+            background: $white;
+            box-shadow: 0px 10px 55px $Light-Apricot;
+            border-radius: 15px;
+            padding: 38px 38px 30px 43px;
+            
+            .post-item {
+                max-width: 339px;
+                
+                time {
+                    font-family: $secondary-font;
+                    font-style: normal;
+                    font-weight: $fw-light;
+                    font-size: $fs-small;
+                    line-height: 23px;
+                    color: $black;
+                }
+                
+                h4 {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                
+                a {
+                    font-family: $secondary-font;
+                    font-style: normal;
+                    font-weight: $fw-bold;
+                    font-size: $fs-small;
+                    line-height: 23px;
+                    color: $black;
+                    text-decoration: none;
+                }
+                }
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+@import '../../breakpoints/Single-Blog/_sidebarbp.scss';

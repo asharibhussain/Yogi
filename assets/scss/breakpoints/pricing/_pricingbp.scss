@@ -1,0 +1,292 @@
+@media screen and (max-width: 1024px) {
+    #hero_2 {
+        .hero_2_container {
+        .hero_2-row {
+            .label-main {
+            .hero_2-right_icon {
+                .hero-p-bt-1 {
+                font-size: 16px;
+                }
+            }
+
+            .label_h {
+                font-size: 50px;
+                line-height: 71px;
+                padding-bottom: 15px;
+            }
+
+            .labe_p {
+                font-size: 16px;
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #hero_2 {
+        .hero_2_container {
+        .hero_2-row {
+            .label-main {
+            .label_h {
+                font-size: 53px;
+                padding-bottom: 20px;
+                line-height: 68px;
+            }
+    
+            .labe_p {
+                font-size: 20px;
+                line-height: 24px;
+                font-size: 14px;
+            }
+    
+            .right_icon {
+                .bt-1 {
+                font-size: 17px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+
+@media (max-width: 830px){
+    #hero_2 {
+        .hero_2_container {
+        .hero_2-row {
+            .label-main {
+            .hero_2-right_icon {
+                .hero-p-bt-1 {
+                font-size: 13px;
+                }
+                .bt{
+                    margin-bottom: 25px;
+                    padding: 14px 30px;
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+            }
+    
+            .label_h {
+                font-size: 43px;
+                padding-bottom: 15px;
+                line-height: 63px;
+            }
+            }
+        }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #hero_2 {
+        .hero_2_container {
+        .hero_2-row {
+            .label-main {
+            .label_h {
+                font-size: 40px;
+                padding-bottom: 4px;
+            }
+    
+            .hero_2-right_icon {
+                .hero-p-bt-1 {
+                font-size: 12px;
+                line-height: 20px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hero_2 {
+        .hero_2_container {
+            .hero_2-row {
+            .label-main {
+                padding-top: 20px;
+        
+                .label_h {
+                font-size: 50px;
+                padding-bottom: 10px;
+                }
+        
+                .labe_p {
+                font-size: 18px;
+                line-height: 30px;
+                padding-bottom: 20px;
+                }
+        
+                .right_icon {
+                .bt-1 {
+                    font-size: 20px;
+                }
+                }
+            }
+        
+            flex-direction: column;
+            align-items: center;
+        
+            .img-hero_2,
+            .label-main {
+                text-align: -webkit-center;
+            }
+        
+            .img-hero_2 {
+                order: -1;
+                margin-bottom: 20px;
+            }
+            }
+        }
+        
+        .hero_2_vector {
+            order: 3;
+            margin-top: 20px;
+        }
+        }
+}
+
+@media screen and (max-width: 565px) {
+    #hero_2 {
+        .hero_2_container {
+            .hero_2-row {
+            .label-main {
+                text-align: center;
+                margin-bottom: 20px;
+                padding-top: 10px;
+        
+                .label_h {
+                font-size: 41px;
+                padding-bottom: 20px;
+                }
+        
+                .labe_p {
+                font-size: 17px;
+                line-height: 28px;
+                padding-bottom: 25px;
+                }
+        
+                .hero_2-right_icon {
+                .hero-p-bt-1 {
+                    flex-direction: row;
+                    align-items: center;
+                    font-size: 19px;
+                }
+                }
+            }
+            }
+        
+            .hero_2_vector {
+            order: 3;
+            margin-top: 20px;
+            }
+        }
+        }
+}
+
+@media screen and (max-width: 425px) {
+    #hero_2 {
+        .hero_2_container {
+            .hero_2-row {
+            .label-main {
+                .label_h {
+                font-size: 31px;
+                padding-bottom: 20px;
+                line-height: 35px;
+                }
+        
+                .labe_p {
+                font-size: 12px;
+                line-height: 22px;
+                }
+        
+                .right_icon {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-left: 15px;
+        
+                .hero-p-bt-1 {
+                    padding: 12px 25px;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                }
+            }
+            }
+        }
+        }
+}
+
+@media screen and (max-width: 375px) {
+    #hero_2 {
+        .hero_2_container {
+            .hero_2-row {
+            .label-main {
+                .label_h {
+                font-size: 26px;
+                padding-bottom: 25px;
+                line-height: 20px;
+                }
+        
+                .labe_p {
+                font-size: 15px;
+                line-height: 20px;
+                }
+        
+                .hero_2-right_icon {
+                .hero-p-bt-1 {
+                    line-height: 20px;
+                    font-size: 16px;
+                }
+
+                .bt{
+                    padding: 14px 20px;
+                    font-size: 12px;
+                }
+                }
+            }
+            }
+        
+            .hero_2_vector {
+            margin-top: 10px;
+            }
+        }
+        }
+}
+
+@media screen and (max-width: 320px) {
+    #hero_2 {
+        .hero_2_container {
+            .hero_2-row {
+            .label-main {
+                .label_h {
+                    font-size: 22px;
+                    padding-bottom: 10px;
+                    line-height: 30px;
+                }
+        
+                .labe_p {
+                    font-size: 12px;
+                    line-height: 20px;
+                    padding-bottom: 0;
+                }
+        
+                .hero_2-right_icon {
+                .hero-p-bt-1 {
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+                }
+            }
+            }
+        
+            .hero_2_vector {
+            margin-top: 10px;
+            }
+        }
+        }
+}

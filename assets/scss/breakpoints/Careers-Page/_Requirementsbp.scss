@@ -1,0 +1,135 @@
+@media screen and (max-width: 1024px) {
+.main {
+    .Requirements-section {
+        .container-requirement {
+            padding-top: 75px;
+
+        .row-Requirements {
+            .main-information {
+                display: flex;
+                column-gap: 20px;
+
+            .side-Career-card {
+                padding: 22px 21px 42px 23px;
+                border: none;
+                border-radius: 15px;
+
+            .right_icon {
+                .custom-btn {
+                    padding: 22.5px 100px;
+                }
+            }
+            }
+        }
+        }
+    }
+    }
+
+    .bt-container {
+    .cneter-bt {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    }
+}
+}
+
+@media screen and (max-width: 990px) {
+.main {
+    .Requirements-section {
+        .container-requirement {
+            padding-top: 30px;
+
+        .row-Requirements {
+            .main-information {
+                display: contents;
+
+            .side-Career-card {
+                margin-bottom: 20px;
+
+            .right_icon {
+                .custom-btn {
+                    padding: 15.5px 40px;
+                }
+            }
+
+            h3 a {
+                font-size: 25px;
+                line-height: 36px;
+            }
+            }
+
+            .Career-card-details {
+                padding: 15px 10px 15px 15px;
+
+            h4 {
+                font-size: 25px;
+                line-height: 25px;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                padding-bottom: 19px;
+            }
+
+            .right_icon {
+                .bt {
+                padding: 15.5px 30.5px;
+                line-height: 15px;
+                font-size: 15px;
+                }
+            }
+            }
+        }
+        }
+    }
+    }
+}
+}
+
+@media screen and (max-width: 565px) {
+    .bt-container {
+        .cneter-bt {
+          .center-bt{
+            padding: 15.5px 30.5px;
+            line-height: 20px;
+            font-size: 16px;
+          }
+        }
+      }
+}
+
+@media screen and (max-width: 425px) {
+.main {
+    .Requirements-section {
+        .container-requirement {
+        padding-top: 30px;
+    
+        .row-Requirements {
+            .main-information {
+            display: contents;
+    
+            .side-Career-card {
+                h3 {
+                font-size: 25px;
+                line-height: 35px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                }
+            }
+    
+            .Career-card-details {
+                h4 {
+                font-size: 22px;
+                line-height: 20px;
+                padding-bottom: 10px;
+                }
+            }
+            }
+        }
+        }
+    }
+    }
+}

@@ -1,0 +1,86 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/fonts';
+@import '../../base/Font-Weights';
+
+.main-s-b-p {
+    .blog-page-section {
+    .s-blog-container {
+        .s-blog-row {
+            .heading-blog {
+                padding-top: 75px;
+
+                span {
+                    font-family: $primary-font;
+                    font-weight: $fw-light;
+                    font-size: $extra-large;
+                    line-height: 42px;
+                    color: $black;
+                }
+
+                h3 {
+                    font-family: $primary-font;
+                    font-weight: $fw-bold;
+                    font-size: $fs-gigantic;
+                    line-height: 62px;
+                    color: $black;
+                    padding-top: 15px;
+                }
+
+                p {
+                    padding-top: 48px;
+                    font-family: $primary-font;
+                    font-weight: $fw-light;
+                    font-size: $extra-large;
+                    line-height: 42px;
+                    color: $black;
+                }
+        }
+
+        .content-row {
+            padding-top: 77px;
+
+            p {
+                font-weight: $fw-light;
+                font-size: $extra-large;
+                line-height: 42px;
+                color: $black;
+            }
+        }
+
+        .the-content {
+            p {
+                font-weight: $fw-light;
+                font-size: $extra-large;
+                line-height: 42px;
+                color:$black;
+                padding-top: 48px;
+            }
+        }
+
+        .right_icon {
+            padding-top: 146px;
+            padding-bottom: 108px;
+
+            .bt {
+                background: $Hex;
+                border-radius: 15px;
+                display: inline-flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 22.5px 65.5px;
+                font-weight: $fw-medium;
+                font-size: $medium;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+                color: $white;
+            }
+        }
+        }
+    }
+    }
+}
+
+@import '../../components/_buttons.scss';
+@import '../../breakpoints/Single-Blog/-blog-pagebp.scss';

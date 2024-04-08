@@ -1,0 +1,106 @@
+@media screen and (max-width: 565px) {
+    .main {
+        .hero-c-Blog {
+            .career-hero_container {
+                .career-hero_row {
+                    .card-heading {
+                        max-width: none;
+                        font-size: 30px;
+                        line-height: 40px;
+                    }   
+                    .career-hero {
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .main {
+        .hero-c-Blog {
+        .M-Blog-title {
+            padding-top: 25px;
+            padding-bottom: 50px;
+    
+            h3 {
+            font-size: 30px;
+            line-height: 40px;
+            }
+    
+            p {
+            font-size: 15px;
+            line-height: 20px;
+            }
+        }
+    
+        padding-bottom: 40px;
+    
+        .career-hero_container {
+            .career-hero_row {
+            padding: 10px;
+    
+            .career-hero {
+                padding: 0px 0 20px 15px;
+            }
+    
+            .card-heading {
+                max-width: none;
+                font-size: 30px;
+                line-height: 40px;
+            }
+            }
+        }
+        }
+    
+        .Career-heading {
+        .Career-row {
+            .Career-main {
+            h2 {
+                font-size: 25px;
+                line-height: 40px;
+            }
+    
+            .c-Blog-description {
+                font-size: 18px;
+                line-height: 30px;
+                padding-top: 10px;
+                padding-bottom: 30px;
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+        .hero-c-Blog {
+        .career-hero_container {
+            .career-hero_row {
+            .card-heading {
+                font-size: 25px;
+                line-height: 30px;
+            }
+            }
+        }
+        }
+    
+        .Career-heading {
+        .Career-row {
+            .Career-main {
+            h2 {
+                font-size: 18px;
+                line-height: 30px;
+            }
+    
+            .c-Blog-description {
+                font-size: 16px;
+                line-height: 25px;
+            }
+            }
+        }
+        }
+    }
+}

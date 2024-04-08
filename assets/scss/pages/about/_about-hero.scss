@@ -1,0 +1,80 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/color';
+@import '../../base/Font-Weights';
+
+#about_hero {
+    padding-bottom: 82px;
+
+    .about_hero_container {
+        position: relative;
+        max-width: 1440px;
+
+        .about_hero_vector {
+            position: absolute;
+            left: -88px;
+            top: 0;
+        }
+
+        .about_hero-row {
+            .about_hero_label-main {
+                .about_hero_label_h {
+                    font-weight: $fw-bold;
+                    color: $Ebony;
+                    font-size: $fs-monstrous;
+                    letter-spacing: 0.01em;
+                    line-height: 90px;
+                    padding-bottom: 19px;
+                }
+
+                .about_hero_labe_p {
+                    font-weight: $fw-normal;
+                    color: $grey;
+                    font-size: $fs-small;
+                    line-height: 30px;
+                    padding-bottom: 31px;
+                }
+
+                .right_icon {
+                    display: inline-flex;
+                    justify-items: center;
+                    align-items: center;
+
+                    .bt {
+                        display: flex;
+                        padding: 22.5px 39px;
+                        font-weight: $fw-medium;
+                        line-height: 25px;
+                        letter-spacing: 0.01em;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                        font-family: $primary-font;
+                        border-radius: 15px;
+                        background: $Hex;
+                        color: $white;
+                        font-size: $medium;
+                    }
+                }
+            }
+
+            .picture {
+                position: relative;
+
+                .about_pic_1 {
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .about_pic_2 {
+                    position: absolute;
+                    left: -50px;
+                    z-index: 0;
+                    bottom: -40px;
+                }
+            }
+        }
+    }
+}
+
+@import '../../breakpoints/about/_about-herobp.scss';

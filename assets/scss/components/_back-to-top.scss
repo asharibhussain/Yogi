@@ -1,0 +1,31 @@
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #ff7058;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+/* Styling for the icon inside the back to top button */
+.back-to-top i {
+    font-size: 28px;
+    color: #151515;
+    line-height: 0;
+}
+/* Hover effect for the back to top button */
+.back-to-top:hover {
+    background: #151515;
+}
+.back-to-top:hover i {
+    color: white;
+}
+/* Show the back to top button when active */
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,48 @@
+@media screen and (max-width: 425px) {
+    #main-about {
+        .services {
+        .service_container {
+            .section-header {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 40px;
+    
+            h2 {
+                font-size: 30px;
+                line-height: 45px;
+            }
+            }
+    
+            .service_row {
+            .service_row_card {
+                h3 {
+                font-size: 30px;
+                line-height: 40px;
+                }
+    
+                p {
+                font-size: 18px;
+                line-height: 25px;
+                padding-bottom: 97px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    #main-about {
+        .services {
+            .service_container {
+                .section-header {
+                    h2 {
+                        font-size: 25px;
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

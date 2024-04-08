@@ -1,0 +1,109 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/fonts';
+@import '../../base/Font-Weights';
+
+.main {
+    .Requirements-section {
+      .container-requirement {
+        padding-top: 75px;
+  
+        .row-Requirements {
+          .main-information {
+              display: flex;
+              column-gap: 20px;
+  
+            .side-Career-card {
+                padding: 22px 21px 42px 23px;
+                border: none;
+                border-radius: 15px;
+    
+              span {
+                  padding-top: 36.06px;
+                  font-family: $primary-font;
+                  font-weight: $fw-normal;
+                  font-size: $fs-small;
+                  line-height: 30px;
+                  color: $Darkened-Amethyst;
+              }
+  
+              h3 {
+                  padding-top: 30px;
+                  padding-bottom: 27px;
+                  font-weight: $fw-bold;
+                  font-size: $fs-xx-large;
+                  line-height: 42px;
+                  color: $Ebony;
+              }
+  
+              .right_icon .custom-btn {
+                background: $Hex;
+                border-radius: 15px;
+                padding: 22.5px 161px;
+                color: $white;
+                font-weight: $fw-medium;
+                font-size:$fs-small;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+              }
+            }
+  
+            .Career-card-details {
+              background: $white;
+              box-shadow: 0px 10px 55px $Light-Apricot;
+              border-radius: 15px;
+              padding: 27px 19px 19px 27px;
+  
+              h4 {
+                font-family: $primary-font;
+                font-weight: $fw-bold;
+                font-size: $fs-xx-large;
+                line-height: 42px;
+                color: $Ebony;
+                padding-bottom: 20px;
+                margin: 0;
+              }
+  
+              p {
+                font-family: $primary-font;
+                font-weight: $fw-normal;
+                font-size: $fs-small;
+                line-height: 30px;
+                color: $Darkened-Amethyst;
+                padding-bottom: 25px;
+                margin: 0;
+              }
+  
+              .right_icon {
+                display: flex;
+                justify-content: flex-end;
+                justify-items: center;
+                align-items: center;
+  
+                .bt {
+                  display: flex;
+                  padding: 22.5px 65.5px;
+                  font-weight: $fw-medium;
+                  line-height: 25px;
+                  letter-spacing: 0.01em;
+                  justify-content: center;
+                  align-items: center;
+                  border: none;
+                  border-radius: 15px;
+                  background: $Ebony;
+                  color: $white;
+                  font-size: $medium;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  
+  }
+  @import '../../components/_bt-container.scss'; 
+  @import '../../components/_.custom-hover.scss';
+  @import '../../breakpoints/Careers-Page/_Requirementsbp.scss';
+  /* @import '../../components/_buttons.scss'; */

@@ -1,0 +1,52 @@
+@media (max-width: 992px) {
+.get-started-btn {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+    .mobile-nav-toggle {
+    display: block;
+    color: #ff7058;
+    }
+
+    .navbar-mobile {
+    a:hover,
+    .active,
+    li:hover > a {
+        color: #151515;
+        background-color: #ff7058;
+    }
+    }
+
+    #navbar {
+    .line-1 {
+        display: none;
+    }
+
+    .nac_logi {
+        padding: 10px 20px;
+        color: #120d26;
+        margin: 11.5px 0px 11.5px 30px;
+    }
+    .bar_link,
+    .bar_link:focus {
+        margin: 11.5px 0px 11.5px 30px;
+    }
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    .container-nav {
+    padding: 20.5px 0;
+    }
+
+
+}

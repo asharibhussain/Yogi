@@ -1,0 +1,63 @@
+@import '../..//base/color';
+@import '../../base/typography';
+@import '../../base/Font-Weights';
+
+.main-Single {
+    background: $CoralSunrise;
+
+    .hero-Single-Job {
+    .Job-container {
+        padding-top: 75px;
+        padding-bottom: 112px;
+
+        h3 {
+        font-weight: $fw-bold;
+        font-size: $fs-enormous;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: $Ebony;
+        }
+
+        p {
+        font-weight: $fw-normal;
+        font-size: $fs-small;
+        line-height: 30px;
+        color: $grey;
+        }
+    }
+
+    .hero-Single-Job-container {
+        .hero-Single-Job-row {
+        background: $white;
+        box-shadow: 0px 10px 55px $Light-Apricot;
+        border-radius: 15px;
+        padding: 21px 22px;
+
+        .job_card {
+            background-image: url("../img/Single Job Description/unsplash_jbcY_yvsDzk.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 0 0 40px 49px;
+        }
+
+        .card-heading {
+            font-weight: $fw-bold;
+            font-size: $fs-gigantic;
+            line-height: 62px;
+            color: $white;
+            margin: 0;
+            align-self: flex-start;
+            word-wrap: break-word;
+            overflow: hidden;
+        }
+        }
+    }
+    }
+}
+
+@import'../../breakpoints/Careers-Single-Job/_hero-Single-Job-bp.scss';

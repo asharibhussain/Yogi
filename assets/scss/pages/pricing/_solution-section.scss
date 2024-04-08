@@ -1,0 +1,72 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/fonts';
+@import '../../base/Font-Weights';
+
+#main-pricing {
+    .solution_section {
+        background: $CoralSunrise;
+    .solution_section-bg {
+        max-width: 1440px;
+
+            .solution_img-vector {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+    }
+    .solution_container {
+            max-width: 1440px;
+            padding: 0 80px;
+        
+        .label_h {
+            font-weight: $fw-bold;
+            font-size: $fs-monstrous;
+            line-height: 90px;
+            letter-spacing: 0.01em;
+            color: $Ebony;
+            max-width: 880px;
+            padding-top: 35px;
+        }
+        
+        .solution-row {
+            padding-bottom: 187px;
+        
+        .label-main {
+            .solution_line {
+                border-top: 2px solid;
+                color: $grey;
+                max-width: 289px;
+            }
+            
+            .labe_p {
+                font-weight: $fw-medium;
+                font-size: $fs-small;
+                line-height: 30px;
+                color: $grey;
+                font-family: $primary-font;
+            }
+            
+            .right_icon {
+                .bt {
+                    padding: 22.5px 24px;
+                    font-weight: $fw-medium;
+                    line-height: 25px;
+                    letter-spacing: 0.01em;
+                    border: none;
+                    border-radius: 10px;
+                    background: $Hex;
+                    color: $white;
+                    font-size: $medium;
+                    
+                    i {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        }
+    }
+    }
+}
+@import '../../breakpoints/pricing/_solution-sectionbp.scss';

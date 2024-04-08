@@ -1,0 +1,156 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/fonts';
+@import '../../base/Font-Weights';
+
+.main-Single {
+    .blog-page-section {
+        .Single-blog-container {
+            .Single-blog-row {
+                .sidebar-blog {
+                    padding-top: 37px;
+
+            .recent-posts {
+                background: $white;
+                box-shadow: 0px 10px 55px $Light-Apricot;
+                border-radius: 15px;
+                padding: 38px 38px 30px 43px;
+
+            h3 {
+                font-family: $secondary-font;
+                font-weight: $fw-bold;
+                font-size: $fs-large;
+                line-height: 30.52px;
+                color: $black;
+                padding-bottom: 14px;
+            }
+
+            .post-item {
+                max-width: 339px;
+
+                time {
+                font-family: $secondary-font;
+                font-weight: $fw-light;
+                font-size: $fs-small;
+                line-height: 23.48px;
+                color: $black;
+                }
+
+                h4 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                max-width: 219px;
+
+                a {
+                    font-family: $secondary-font;
+                    font-weight: $fw-bold;
+                    font-size: $fs-small;
+                    line-height: 23.48px;
+                    color: $black;
+                    text-decoration: none;
+                }
+                }
+            }
+            }
+        }
+
+        .heading-blog {
+            padding-top: 75px;
+
+            span {
+                font-weight: $fw-light;
+                font-size:$extra-large;
+                line-height: 42px;
+                color: $black;
+            }
+
+            h3 {
+                font-weight: $fw-bold;
+                font-size: $fs-gigantic;
+                line-height: 62px;
+                color: $black;
+                padding-top: 32px;
+            }
+
+            p {
+                padding-top: 43px;
+                font-weight: $fw-light;
+                font-size:$extra-large;
+                line-height: 42px;
+                color: $black;
+            }
+        }
+
+        .description {
+            h3 {
+                font-weight: $fw-bold;
+                font-size: $fs-huge;
+                line-height: 62px;
+                color: $black;
+                padding-top: 40px;
+                padding-bottom: 30px;
+                overflow-wrap: break-word;
+            }
+
+            ul {
+                font-family: $primary-font;
+                font-weight: $fw-light;
+                font-size: $extra-large;
+                line-height: 42px;
+                color: $black;
+            }
+        }
+
+        .heading-blog-job {
+            padding-top: 40px;
+
+            h3 {
+                font-weight: $fw-bold;
+                font-size: $fs-huge;
+                line-height: 62px;
+                color: $black;
+            }
+
+            p {
+                padding-top: 30px;
+                font-weight: $fw-light;
+                font-size: $extra-large;
+                line-height: 42px;
+                color: $black;
+            }
+
+            .second-p {
+                font-weight: $fw-light;
+                font-size: $extra-large;
+                line-height: 42px;
+                color: $black;
+                padding-top: 20px;
+            }
+        }
+
+        .right_icon {
+            padding-top: 114px;
+            padding-bottom: 97px;
+
+            .bt {
+            background: $Ebony;
+            border-radius: 15px;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 22.5px 66px;
+            font-family: $primary-font;
+            font-weight: $fw-medium;
+            font-size: $medium;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            color: $white;
+            }
+        }
+        }
+    }
+    }
+}
+
+@import '../../breakpoints/Careers-Single-Job/_blog-section-bp.scss';

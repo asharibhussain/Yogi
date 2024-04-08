@@ -1,0 +1,67 @@
+@import '../../base/color';
+@import '../../base/Font-Weights';
+
+.try {
+    padding: 0;
+    margin: 0;
+}
+
+.try_container {
+    max-width: 1440px;
+    width: 100%;
+    background: $CoralSunrise;
+
+.card_try {
+    padding: 113px 80px 113px 81px;
+
+    .card_try_body {
+        background: $Hex;
+        border-radius: 25px;
+        padding: 72px 209px 72px 209px;
+
+    .card_try_title {
+        font-weight: $fw-bold;
+        font-size: $fs-enormous;
+        color: $white;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        padding-bottom: 38px;
+    }
+
+    .card_try_text {
+        font-size: $medium; // Using the variable for 18px
+        font-weight: $fw-normal;
+        line-height: 27px;
+        letter-spacing: 0em;
+        border-bottom: none;
+        color: $white;
+        padding-bottom: 38px;
+    }
+
+    .bt-try {
+        padding-top: 30px;
+
+        a {
+            background: $white;
+            padding: 22.5px 60px 22.5px 60px;
+            border-radius: 15px;
+            font-size: $medium;
+            border: none;
+            font-weight: $fw-medium;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            color: $black;
+            display: inline;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px $Subdued-Charcoal, 0 6px 6px $Translucent-Black;
+            }
+        }
+    }
+    }
+}
+}
+@import '../../breakpoints/home/_try.scss';
+@import '../../layout/_footer.scss';

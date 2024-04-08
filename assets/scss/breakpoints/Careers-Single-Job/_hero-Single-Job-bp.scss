@@ -1,0 +1,65 @@
+@media screen and (max-width: 565px) {
+    .main-Single {
+        .hero-Single-Job {
+        .hero-Single-Job-container {
+            .hero-Single-Job-row {
+                .job_card {
+                    background-position: left;
+                    height: 300px;
+                }
+            }
+        }
+    
+        .Job-container {
+            padding-top: 25px;
+            padding-bottom: 40px;
+        }
+    
+        .hero-Single-Job-container {
+            .hero-Single-Job-row {
+            padding: 18px 15px;
+            }
+        }
+        }
+    }
+}  
+
+@media screen and (max-width: 425px) {
+    .main-Single {
+        .hero-Single-Job {
+            .Job-container {
+                padding-top: 25px;
+                padding-bottom: 50px;
+        
+            h3 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        
+            p {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            }
+        
+            .hero-Single-Job-container {
+                .hero-Single-Job-row {
+                    padding: 10px 0;
+                
+                        .job_card {
+                            padding: 0 0 20px 10px;
+                        }
+                
+                        .card-heading br {
+                            display: none;
+                        }
+                
+                        .card-heading {
+                            font-size: 30px;
+                            line-height: 35px;
+                        }
+            }
+            }
+        }
+        }
+    }

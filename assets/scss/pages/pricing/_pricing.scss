@@ -1,0 +1,65 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/Font-Weights';
+
+#hero_2 {
+    .hero_2_container {
+    position: relative;
+    max-width: 1440px;
+
+    .hero_2_vector {
+        position: absolute;
+        left: -100px;
+        top: 0;
+    }
+
+    .hero_2-row {
+        display: flex;
+        flex-wrap: nowrap;
+
+        .label-main {
+            .label_h {
+                font-weight: $fw-bold;
+                font-size: $fs-monstrous;
+                line-height: 90px;
+                letter-spacing: 0.01em;
+                color: $Ebony;
+                padding-bottom: 34px;
+            }
+
+        .labe_p {
+            font-weight: $fw-normal;
+            color: $grey;
+            font-size: $fs-small;
+            line-height: 30px;
+            max-width: 585px;
+        }
+
+        .hero_2-right_icon {
+            display: inline-flex;
+            justify-items: center;
+            align-items: center;
+
+            .bt {
+                margin-bottom: 28px;
+                display: flex;
+                padding: 14px 60px;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                gap: 10px;
+                border-radius: 10px;
+                background: $Hex;
+                color: $white;
+                font-size: $medium;
+                font-weight: $fw-semibold;
+                letter-spacing: 0.01em;
+                line-height: 27px;
+            }
+        }
+        }
+    }
+    }
+}
+
+@import '../../breakpoints/pricing/_pricingbp.scss';

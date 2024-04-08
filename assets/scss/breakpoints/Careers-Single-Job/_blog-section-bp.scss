@@ -1,0 +1,87 @@
+@media screen and (max-width: 565px) {
+    .main-Single {
+        .blog-page-section {
+        .Single-blog-container {
+            .Single-blog-row {
+                .heading-blog {
+                        h3 {
+                            font-size: 30px;
+                            line-height: 40px;
+                            padding-top: 20px;
+                        }
+    
+                p {
+                padding-top: 30px;
+                font-size: 20px;
+                line-height: 35px;
+                }
+            }
+    
+            .description {
+                h3 {
+                font-size: 30px;
+                line-height: 40px;
+                padding-top: 25px;
+                padding-bottom: 20px;
+                }
+    
+                ul {
+                font-size: 20px;
+                line-height: 30px;
+                text-align: start;
+                }
+            }
+    
+            .heading-blog-job {
+                padding-top: 20px;
+    
+                h3 {
+                font-size: 30px;
+                line-height: 40px;
+                }
+    
+                p {
+                padding-top: 20px;
+                font-size: 20px;
+                line-height: 30px;
+                }
+    
+                .second-p {
+                font-size: 20px;
+                line-height: 30px;
+                padding-top: 15px;
+                }
+            }
+    
+            .right_icon {
+                padding-top: 40px;
+                padding-bottom: 30px;
+    
+                .bt {
+                padding: 16.5px 40px;
+                font-size: 15px;
+                line-height: 20px;
+                }
+            }
+    
+            .sidebar-blog {
+                .recent-posts {
+                padding: 38px 30px 30px 25px;
+    
+                h3 {
+                    font-size: 20px;
+                    line-height: 20.52px;
+                }
+    
+                .post-item time,
+                .post-item h4 a {
+                    font-size: 17px;
+                    line-height: 20.48px;
+                }
+                }
+            }
+            }
+        }
+        }
+    }
+}

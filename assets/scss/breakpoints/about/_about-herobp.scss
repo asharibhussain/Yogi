@@ -1,0 +1,95 @@
+@media screen and (max-width: 990px) {
+    #about_hero {
+        .about_hero_container {
+        max-width: 990px;
+    
+        .about_hero-row {
+            .about_hero_label-main {
+            .about_hero_label_h {
+                font-size: 53px;
+                padding-bottom: 20px;
+                line-height: 50px;
+            }
+    
+            .about_hero_labe_p {
+                font-size: 17px;
+                line-height: 25px;
+                padding-bottom: 31px;
+            }
+    
+            .right_icon {
+                .bt-1 {
+                font-size: 17px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #about_hero {
+        .about_hero_container {
+        .about_hero-row {
+            .about_hero_label-main {
+                text-align: center;
+                padding-top: 50px;
+
+            .right_icon {
+                .bt {
+                padding: 15.5px 20px;
+                line-height: 20px;
+                font-size: 15px;
+                }
+            }
+            }
+            .picture {
+                text-align: center;
+
+                .about_pic_2 {
+                    left: 0px;
+                }
+            }
+        }
+        }
+    }
+}
+
+@media screen and (max-width: 565px) {
+    #about_hero {
+        .about_hero_container {
+            .about_hero-row {
+            .about_hero_label-main {
+                text-align: center;
+        
+                .about_hero_label_h {
+                padding-top: 15px;
+                line-height: 60px;
+                }
+            }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #about_hero {
+        .about_hero_container {
+            .about_hero-row {
+            .about_hero_label-main {
+                .about_hero_label_h {
+                line-height: 50px;
+                font-size: 45px;
+                }
+        
+                .about_hero_labe_p {
+                font-size: 15px;
+                line-height: 21px;
+                padding-bottom: 30px;
+                }
+            }
+            }
+        }
+    }
+}

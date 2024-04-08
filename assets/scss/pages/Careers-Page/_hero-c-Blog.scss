@@ -1,0 +1,90 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/Font-Weights';
+
+.main {
+    background: $CoralSunrise;
+
+    .hero-c-Blog {
+        .M-Blog-title {
+            padding-top: 75px;
+            padding-bottom: 112px;
+
+            h3 {
+                font-weight: $fw-bold;
+                font-size: $fs-enormous;
+                line-height: 60px;
+                letter-spacing: 0.02em;
+                color: $Ebony;
+            }
+
+            p {
+                font-weight: $fw-normal;
+                font-size: $fs-small;
+                line-height: 30px;
+                color: $grey;
+            }
+        }
+
+        padding-bottom: 77px;
+
+        .career-hero_container {
+            .career-hero_row {
+                background: $white;
+                box-shadow: 0px 10px 55px $Light-Apricot;
+                border-radius: 15px;
+                padding: 21px 21px 21px 23px;
+
+                .career-hero {
+                    background-image: url("../img/Careers Page/hero-Careers/mian blog.svg");
+                    background-size: cover;
+                    background-position: center;
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    padding: 0px 0 39px 58px;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    border: none;
+                }
+
+                .card-heading {
+                    margin: 0;
+                    align-self: flex-start;
+                    max-width: 216px;
+                    font-weight: $fw-bold;
+                    font-size: $fs-gigantic;
+                    line-height: 62px;
+                    color: $white;
+                    word-wrap: break-word;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+    .Career-heading {
+        .Career-row {
+            .Career-main {
+                h2 {
+                    font-weight: $fw-bold;
+                    font-size: $fs-gigantic;
+                    line-height: 62px;
+                    color: $black;
+                }
+
+                .c-Blog-description {
+                    font-weight: $fw-light;
+                    font-size: $extra-large;
+                    line-height: 42px;
+                    color: $black;
+                    padding-top: 20px;
+                    padding-bottom: 77px;
+                }
+            }
+        }
+    }
+}
+
+@import "../../breakpoints/Careers-Page/_hero-c-Blogbp.scss";

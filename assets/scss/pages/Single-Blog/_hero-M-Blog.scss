@@ -1,0 +1,40 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/Font-Weights';
+
+.main-s-b-p {
+    background: $CoralSunrise;
+    
+    .hero-M-Blog {
+      .M-Blog-title {
+        padding-top: 75px;
+        padding-bottom: 112px;
+        
+        h3 {
+          font-weight: $fw-bold;
+          font-size: $fs-enormous;
+          line-height: 60px;
+          letter-spacing: 0.02em;
+          color: $Ebony;
+        }
+        
+        p {
+          font-weight: $fw-normal;
+          font-size: $fs-small;
+          line-height: 30px;
+          color: $grey;
+        }
+      }
+      
+      .M-Blog-container {
+        .M-Blog-row {
+          background: $white;
+          box-shadow: 0px 10px 55px $Light-Apricot;
+          border-radius: 15px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  @import '../../breakpoints/Single-Blog/_hero-M-Blog-bp.scss';

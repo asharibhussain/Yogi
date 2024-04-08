@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, p, span {
+    font-family: "Poppins";
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Set font family for heading elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins";
+}
+

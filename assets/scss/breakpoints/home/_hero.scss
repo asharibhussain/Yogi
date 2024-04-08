@@ -1,0 +1,337 @@
+@media screen and (max-width: 1024px) {
+    #hero {
+    padding-bottom: 40px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            .label_h {
+            font-size: 66px;
+            line-height: 80px;
+            padding-bottom: 33px;
+            }
+
+            .labe_p {
+            font-size: 18px;
+            line-height: 25px;
+            padding-bottom: 40px;
+            }
+        }
+        }
+    }
+    }
+}
+
+@media (max-width: 992px) {
+.get-started-btn {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+}
+#card_row {
+    padding: 48px 20px 0 20px;
+}
+}
+
+@media screen and (max-width: 991px) {
+    .mobile-nav-toggle {
+    display: block;
+    color: #ff7058;
+    }
+
+    .navbar-mobile {
+    a:hover,
+    .active,
+    li:hover > a {
+        color: #151515;
+        background-color: #ff7058;
+    }
+    }
+
+    #navbar {
+    .line-1 {
+        display: none;
+    }
+
+    .nac_logi {
+        padding: 10px 20px;
+        color: #120d26;
+        margin: 11.5px 0px 11.5px 30px;
+    }
+    .bar_link,
+    .bar_link:focus {
+        margin: 11.5px 0px 11.5px 30px;
+    }
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    #hero {
+    .hero_container {
+        .hero-row {
+        .label-main {
+            padding-top: 69px;
+            padding-bottom: 70px;
+
+            .label_h {
+            font-size: 50px;
+            padding-bottom: 20px;
+            line-height: 70px;
+            }
+
+            .labe_p {
+            font-size: 14px;
+            padding-bottom: 40px;
+            line-height: 25px;
+            }
+
+            .right_icon {
+            .bt {
+                padding: 15px 35px;
+                color: white;
+                font-size: 18px;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+@media (max-width: 768px) {
+    #hero {
+    padding-bottom: 40px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            padding-bottom: 0;
+            padding-top: 0;
+
+            .label_h {
+            font-size: 50px;
+            padding-bottom: 5px;
+            }
+
+            .right_icon {
+            .bt {
+                padding: 15px 20px;
+                font-size: 15px;
+            }
+            
+            a {
+                font-size: 15px;
+                line-height: 15px;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hero {
+    padding-bottom: 40px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            padding-top: 20px;
+            text-align: -webkit-center;
+            align-items: center;
+
+            .label_h {
+            font-size: 50px;
+            padding-bottom: 10px;
+            }
+
+            .labe_p {
+                font-size: 18px;
+                line-height: 30px;
+                padding-bottom: 20px;
+            }
+
+            .right_icon {
+            .bt {
+                max-width: 220px;
+                padding: 12px 30px;
+                font-size: 16px;
+            }
+            }
+        }
+        }
+        
+        .hero-row {
+        flex-direction: column;
+        align-items: center;
+
+        .hero-img {
+            order: -1;
+        }
+        }
+
+        .hero_vector {
+        order: 3;
+        margin-top: 20px;
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 565px) {
+    #hero {
+    padding-bottom: 40px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            padding-top: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+
+            .label_h {
+            font-size: 43px;
+            padding-bottom: 22px;
+            line-height: 60px;
+            }
+
+            .labe_p {
+            font-size: 17px;
+            line-height: 28px;
+            padding-bottom: 25px;
+            }
+
+            .right_icon {
+            justify-content: center;
+
+            .bt {
+                max-width: 220px;
+                padding: 12px 30px;
+                font-size: 18px;
+            }
+            }
+        }
+        }
+
+        .hero_vector {
+        order: 3;
+        margin-top: 20px;
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #hero {
+    padding-bottom: 40px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            text-align: center;
+            margin-bottom: 20px;
+
+            .label_h {
+            font-size: 31px;
+            line-height: 45px;
+            padding-bottom: 0px;
+            }
+
+            .labe_p {
+            font-size: 12px;
+            line-height: 22px;
+            padding-bottom: 22px;
+            }
+
+            .right_icon {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 15px;
+            justify-content: center;
+
+            .bt {
+                max-width: 200px;
+                padding: 12px 25px;
+                font-size: 16px;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-nav {
+    padding: 20.5px 0;
+    }
+
+    #hero {
+    padding-bottom: 30px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            text-align: center;
+
+            .label_h {
+            font-size: 26px;
+            padding-bottom: 0px;
+            }
+
+            .labe_p {
+            font-size: 12px;
+            line-height: 20px;
+            }
+
+            .right_icon {
+            flex-direction: column;
+            padding-left: 0px;
+
+            .bt {
+                font-size: 16px;
+            }
+            }
+        }
+        }
+
+        .hero_vector {
+        margin-top: 10px;
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #hero {
+    padding-bottom: 21px;
+
+    .hero_container {
+        .hero-row {
+        .label-main {
+            padding-top: 0px;
+            
+            .right_icon {
+            padding-left: 0px;
+            flex-direction: column;
+            }
+
+            .label_h {
+            font-size: 20px;
+            padding-bottom: 0px;
+            line-height: 50px;
+            }
+
+            .labe_p {
+            font-size: 15px;
+            line-height: 22px;
+            }
+        }
+
+        padding-bottom: 20px;
+        }
+    }
+    }
+}

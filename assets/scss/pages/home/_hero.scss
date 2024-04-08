@@ -1,0 +1,80 @@
+
+@import '../../layout/_header.scss';
+@import '../../base/color';
+@import '../../base/Font-Weights';
+@import '../../base/typography';
+
+#hero {
+    padding-bottom: 83px;
+
+    .hero_container {
+        position: relative;
+        max-width: 1440px;
+        padding: 0;
+
+    .hero_vector {
+        position: absolute;
+        left: -100px;
+        top: 0;
+    }
+
+    .hero-row {
+        display: flex;
+        flex-wrap: nowrap;
+
+        .label-main {
+            display: flex;
+            flex-direction: column;
+
+        .label_h {
+            font-weight: $fw-bold;
+            color: $Ebony;
+            font-size: $fs-monstrous;
+            letter-spacing: 0.01em;
+            line-height: 90px;
+            padding-bottom: 33px;
+        }
+
+        .labe_p {
+            font-weight: $fw-normal;
+            color: $grey ;
+            font-size: $fs-small;
+            line-height: 30px;
+            max-width: 585px;
+            padding-bottom: 58px;
+        }
+
+        .right_icon {
+            display: inline-flex;
+            justify-items: center;
+            align-items: center;
+
+            a {
+                color:$Hex ;
+                font-weight: $fw-medium;
+                font-size: $regular;
+                line-height: 24px;
+            }
+
+            .bt {
+                display: flex;
+                padding: 22.5px 48.5px;
+                font-weight: $fw-medium;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                gap: 10px;
+                border-radius: 15px;
+                background:$Hex;
+                color: $white;
+                font-size: $medium;//18px
+            }
+        }
+        }
+    }
+    }
+}
+@import '../../components/_buttons.scss';
+@import '../../breakpoints/home/_hero.scss';

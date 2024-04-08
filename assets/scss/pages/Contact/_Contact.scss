@@ -1,0 +1,101 @@
+@import '../../base/color';
+@import '../../base/fonts';
+@import '../../base/Font-Weights';
+
+#main {
+    .hero_Contact {
+    background: $CoralSunrise;
+    padding: 71px 74px 55px 62px;
+
+    .hero_Contact_container {
+        background: $white;
+        box-shadow: 0px 10px 55px $Light-Apricot;
+        border-radius: 15px;
+
+        .hero_Contact-row {
+        .heading-contact {
+            h3 {
+            font-weight: $fw-bold;
+            font-size: $fs-enormous;
+            margin: 0;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            color: $Ebony;
+            }
+
+            h5 {
+            font-weight: $fw-medium;
+            font-size: $fs-small;
+            line-height: 30px;
+            color: $grey;
+            }
+        }
+
+        .form-input-contact {
+            #form-label-control,
+            #form-label-control-2 {
+                font-family: $primary-font;
+                font-weight: $fw-semibold;
+                font-size: $regular;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+                color: $Darkened-Amethyst;
+            }
+
+            input::placeholder {
+            color: $Tangerine;
+            }
+
+            input[type="email"] {
+            font-weight: $fw-medium;
+            font-size: $medium;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            padding: 21px 16.5px;
+            background: $CoralSunrise;
+            border-radius: 10px;
+            font-family: $primary-font;
+            border: none;
+            }
+
+            .form-textarea::placeholder {
+            color: $Tangerine;
+            }
+
+            .form-textarea {
+            padding: 24px 16px 14px 18px;
+            background: $CoralSunrise;
+            font-family: $primary-font;
+            font-weight: $fw-medium;
+            font-size: $medium;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            border-radius: 10px;
+            border: none;
+            }
+        }
+
+        .right_icon {
+            .bt {
+            padding: 24px 192.5px;
+            font-weight: $fw-semibold;
+            font-size: $regular;
+            line-height: 25px;
+            letter-spacing: 0.01em;
+            color: $white;
+            text-decoration: none;
+            background: $Hex;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            max-width: 466px;
+            }
+        }
+        }
+    }
+    }
+}
+
+@import '../../breakpoints/Contact/_Contactbp.scss';

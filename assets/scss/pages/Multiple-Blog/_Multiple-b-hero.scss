@@ -1,0 +1,99 @@
+@import '../../base/color';
+@import '../../base/typography';
+@import '../../base/Font-Weights';
+
+#main-m-b-p {
+    background: $CoralSunrise;
+
+    .hero-M-Blog {
+    .M-Blog-title {
+        padding-top: 75px;
+        padding-bottom: 112px;
+
+        h3 {
+            font-weight: $fw-bold;
+            font-size: $fs-enormous;
+            line-height: 60px;
+            letter-spacing: 0.02em;
+            color: $Ebony;
+        }
+
+        p {
+            font-weight: $fw-normal;
+            font-size: $fs-small;
+            line-height: 30px;
+            color: $grey;
+        }
+    }
+
+    .M-Blog-container {
+        padding-bottom: 114px;
+
+        .M-Blog-row {
+            padding: 18px 22px 20px 23px;
+            background: $white;
+            box-shadow: 0px 10px 55px $Light-Apricot;
+            border-radius: 15px;
+
+        .label-main {
+            padding-top: 20px;
+
+            span {
+                font-weight: $fw-light;
+                font-size: $fs-large;
+                line-height: 39px;
+                color: $Darkened-Amethyst;
+            }
+
+            h1 {
+                font-weight: $fw-bold;
+                font-size: $fs-gigantic;
+                line-height: 62px;
+                color: $Ebony;
+                padding-top: 19px;
+                padding-bottom: 38px;
+            }
+
+            p {
+                font-weight: $fw-light;
+                font-size: $fs-large;
+                line-height: 39px;
+                color: $Darkened-Amethyst;
+                padding-bottom: 58px;
+            }
+
+            .right_icon {
+                display: inline-flex;
+                justify-items: center;
+                align-items: center;
+
+            a {
+                color: $Hex;
+                font-weight: $fw-medium;
+                font-size: $regular;
+                line-height: 24px;
+            }
+
+            .bt {
+                display: flex;
+                padding: 22.5px 48.5px;
+                font-weight: $fw-medium;
+                line-height: 25px;
+                letter-spacing: 0.01em;
+                border: none;
+                gap: 10px;
+                border-radius: 15px;
+                background: $Ebony;
+                color: $white;
+                font-size: $medium;
+                justify-content: space-evenly;
+                align-items: baseline;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+@import '../../breakpoints/Multiple-Blog/_Multiple-b-herobp.scss';

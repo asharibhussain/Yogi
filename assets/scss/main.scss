@@ -1,0 +1,94 @@
+@import '../scss//abstracts/_helpers.scss';
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+/** Styles for screens with a minimum width of 1200px or larger */
+@media screen and (min-width: 1200px) {
+.header {
+    padding: 0 80px 0 80px;
+}
+section {
+    padding: 0 80px 0 80px;
+}
+.container-all {
+    max-width: 1280px;
+}
+}
+/** Styles for screens with a maximum width of 1199px or smaller */
+@media screen and (max-width: 1199px) {
+.header {
+    padding: 0 20px 0 20px;
+}
+section {
+    padding: 0 20px 0 20px;
+}
+}
+/**--------------------------------------------------------------
+# Custom Classes
+--------------------------------------------------------------*/
+/** Custom class for adding padding-top */
+.all_unique_class_pt {
+    padding-top: 123px;
+}
+/** Custom class for adding padding-bottom */
+.all_unique_class_pb {
+    padding-bottom: 150px;
+}
+/** Set max-width for a container */
+.all-container {
+    max-width: 1440px;
+}
+/** Styles for the navigation container */
+.nav-container {
+    flex-shrink: 0;
+    height: 98px;
+    border-radius: 67px;
+    background: #fff;
+}
+/* home page section link start here  */
+@import './pages/home/_hero.scss';
+@import './pages/home/_clients.scss';
+@import './pages/home/_Prices.scss';
+@import './pages/home/_comments.scss';
+@import './pages/home/_info_section.scss';
+@import './pages/home/_try.scss';
+
+// @import '././common-section/hero/header/scss/_header.scss';
+// @import '././common-section/hero/hero/scss/_hero.scss';
+/* End here is the home page   */
+
+/* start here is pricing page  section  */
+@import './pages/pricing/_pricing.scss';
+@import './pages/pricing/_Prices-card.scss';
+@import './pages/pricing/_solution-section.scss';
+/* End here is the pricing page */
+
+/* start here is about page  section  */
+@import './pages/about/_about-hero.scss';
+@import './pages/about/_service.scss';
+/* End here is the about page   */
+
+/* start here is contact page  section  */
+@import './pages/Contact/_Contact.scss';
+/* End here is the contact page   */
+
+/* start here is Multiple blogs  page  section  */
+@import './pages/Multiple-Blog/_Multiple-b-hero.scss';
+@import './pages/Multiple-Blog/_service.scss';
+/* End here is the Multiple page   */
+
+/* start here is single blogs  page  section  */
+@import './pages/Single-Blog/_hero-M-Blog.scss';
+@import './pages/Single-Blog/_sidebar.scss';
+@import './pages/Single-Blog/_blog-page.scss';
+/* End here is the single page   */
+
+/* start here is Careers-Page blogs  page  section  */
+@import './pages/Careers-Page/_hero-c-Blog.scss';
+@import './pages/Careers-Page/_Requirements.scss';
+/* End here is the Careers page   */
+
+/* start here is Single-Job-Page blogs  page  section  */
+@import './pages/Careers-Single-Job/_hero-Single-Job.scss';
+@import './pages/Careers-Single-Job/_blog-section.scss';
+/* End here is the Single-Job-Page  */
